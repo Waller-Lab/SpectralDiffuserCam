@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110853731-1"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
+  		gtag('config', 'UA-110853731-1');
+	</script>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Spectral DiffuserCam</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="styles/minimal.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-nav">
+		<div class="container-fluid">
+    		<ul class="nav navbar-nav">
+      			<li class="nav-item active"><a href="index.html">Home</a></li>
+      			<li class="nav-item"><a href="gallery.html">Gallery</a></li>
+				<li class="nav-item"><a href="https://github.com/Waller-Lab/SpectralDiffuserCam">Code</a></li>
+				<li class="nav-item"><a href="https://arxiv.org/abs/2006.08565">Paper</a></li>
+    		</ul>
+      	</div>
+    </div>
+</nav>
+
+<div class="container">
+
+	<div class="row">
+		<h1><b>Spectral DiffuserCam: lensless snapshot hyperspectral imaging</b></h1>
+		<h5><b><a href="https://people.eecs.berkeley.edu/~monakhova/">Kristina Monakhova*</a>, <a href="https://kyrollosyanny.com/">Kyrollos Yanny*</a>, <a href = "https://scholar.google.com/citations?user=fV6wZKgAAAAJ&hl=en">Neerja Aggarwal</a>, and <a href="http://www.laurawaller.com/">Laura Waller</a></b></h5>
+		<br />
+		<img class="center" src="resources/overview_jpg.jpg" style="width:800px">
+	</div>
+
+
+	<div class="row">
+		<h3><b>Abstract</b></h3>
+		<p>Hyperspectral imaging is useful for applications ranging from medical diagnostics to crop monitoring; however, traditional scanning hyperspectral imagers are prohibitively slow and expensive for widespread adoption. Snapshot techniques exist but are often confined to bulky benchtop setups or have low spatio-spectral resolution. In this paper, we propose a novel, compact, and inexpensive computational camera for snapshot hyperspectral imaging. Our system consists of a repeated spectral filter array placed directly on the image sensor and a diffuser placed close to the sensor. Each point in the world maps to a unique pseudorandom pattern on the spectral filter array, which encodes multiplexed spatio-spectral information. A sparsity-constrained inverse problem solver then recovers the hyperspectral volume with good space-bandwidth product. By using a spectral filter array, our hyperspectral imaging framework is flexible and can be designed with contiguous or non-contiguous spectral filters that can be chosen for a given application. We provide theory for system design, demonstrate a prototype device, and present experimental results with high spatio-spectral resolution.</p>
+	</div>
+
+	<div class="row">
+		<h3><b>Resources</b></h3>
+		<ul>
+			<li>Open source code on <b><a href="https://github.com/Waller-Lab/SpectralDiffuserCam">GitHub</a></b></li>
+			<li>Paper preprint <b><a href="https://arxiv.org/abs/2006.08565">here</a></b></li>
+			<li>Original DiffuserCam (3D imaging) and Build-your-own <b><a href="https://waller-lab.github.io/DiffuserCam/">tutorial</a></b>
+			<li><b><a href="gallery.html">Gallery</a></b> of reconstructions</li>
+		</ul>
+	</div>
+
+
+
+</div>
+<nav class="navbar navbar-default">
+</nav>
+
+</body>
+</html>
