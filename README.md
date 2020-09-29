@@ -3,7 +3,8 @@
 ### [Project Page](https://waller-lab.github.io/SpectralDiffuserCam/) | [Paper](https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-10-1298)
 
 
-Please cite the following paper when using this code:
+Please cite the following paper when using this code or data:
+
 [Spectral DiffuserCam: lensless snapshot hyperspectral imaging with a spectral filter array](https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-10-1298)
 
 Kristina Monakhova, Kyrollos Yanny, Neerja Aggarwal, and Laura Waller
@@ -16,6 +17,10 @@ Kristina Monakhova, Kyrollos Yanny, Neerja Aggarwal, and Laura Waller
 
 ## Data
 Sample data (needed to run the code) can be found [here](https://drive.google.com/drive/folders/1dmfzkTLFZZFUYW8GC6Vn6SOuZiZq47SS?usp=sharing)
+
+This includes the following files:
+ * calibration.mat - includes the calibratated point spread function, filter function, and wavelength list
+ * four sample raw measurements
 
 Please place the downloaded data in SampleData folder the Python and/or Matlab folders.
 
