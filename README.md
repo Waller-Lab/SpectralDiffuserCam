@@ -4,15 +4,15 @@
 
 
 Please cite the following paper when using this code:
-[Spectral DiffuserCam: lensless snapshot hyperspectral imaging with a spectral filter array] (https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-10-1298)
+[Spectral DiffuserCam: lensless snapshot hyperspectral imaging with a spectral filter array](https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-10-1298)
 
 Kristina Monakhova, Kyrollos Yanny, Neerja Aggarwal, and Laura Waller
 
 ## Contents
 
-1. [Data] Data
-2. [Setup] Setup 
-3. [Description] Description 
+1. [Data](#Data)
+2. [Setup](#Setup)
+3. [Description](#Description)
 
 ## Data
 Sample data (needed to run the code) can be found [here](https://drive.google.com/drive/folders/1dmfzkTLFZZFUYW8GC6Vn6SOuZiZq47SS?usp=sharing)
