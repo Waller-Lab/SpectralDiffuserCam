@@ -47,20 +47,28 @@
 		<h1><b>Spectral DiffuserCam: lensless snapshot hyperspectral imaging</b></h1>
 		<h5><b><a href="https://people.eecs.berkeley.edu/~monakhova/">Kristina Monakhova*</a>, <a href="https://kyrollosyanny.com/">Kyrollos Yanny*</a>, <a href = "https://www.linkedin.com/in/neerja-aggarwal/">Neerja Aggarwal</a>, and <a href="http://www.laurawaller.com/">Laura Waller</a></b></h5>
 		<br />
-		<img class="center" src="resources/website_overview_figure.jpg" style="width:900px">
+		<img class="center" src="resources/website_overview_figure.jpg" style="width:700px">
 	</div>
-
 
 	<div class="row">
 		<h3><b>Abstract</b></h3>
-		<p>Hyperspectral imaging is useful for applications ranging from medical diagnostics to crop monitoring; however, traditional scanning hyperspectral imagers are prohibitively slow and expensive for widespread adoption. Snapshot techniques exist but are often confined to bulky benchtop setups or have low spatio-spectral resolution. In this paper, we propose a novel, compact, and inexpensive computational camera for snapshot hyperspectral imaging. Our system consists of a repeated spectral filter array placed directly on the image sensor and a diffuser placed close to the sensor. Each point in the world maps to a unique pseudorandom pattern on the spectral filter array, which encodes multiplexed spatio-spectral information. A sparsity-constrained inverse problem solver then recovers the hyperspectral volume with good space-bandwidth product. By using a spectral filter array, our hyperspectral imaging framework is flexible and can be designed with contiguous or non-contiguous spectral filters that can be chosen for a given application. We provide theory for system design, demonstrate a prototype device, and present experimental results with high spatio-spectral resolution.</p>
-	</div>
+		<p>Hyperspectral imaging is useful for applications ranging from medical diagnostics to agricultural crop monitoring; however, traditional scanning hyperspectral imagers are prohibitively slow and expensive for widespread adoption. Snapshot techniques exist but are often confined to bulky benchtop setups or have low spatio-spectral resolution. In this paper, we propose a novel, compact, and inexpensive computational camera for snapshot hyperspectral imaging. Our system consists of a tiled spectral filter array placed directly on the image sensor and a diffuser placed close to the sensor. Each point in the world maps to a unique pseudorandom pattern on the spectral filter array, which encodes multiplexed spatio-spectral information. By solving a sparsity-constrained inverse problem, we recover the hyperspectral volume with sub-super-pixel resolution. Our hyperspectral imaging framework is flexible and can be designed with contiguous or non-contiguous spectral filters that can be chosen for a given application. We provide theory for system design, demonstrate a prototype device, and present experimental results with high spatio-spectral resolution.
+		 </p>
+		</div>
+
+	<div class="row">
+		<h3><b>Overview Video</b></h3>
+		<iframe width="660" height="415"
+src="https://www.youtube.com/embed/ReH0x_W3glM">
+</iframe>
+</div>
 
 	<div class="row">
 		<h3><b>Resources</b></h3>
 		<ul>
-			<li>Open source code on <b><a href="https://github.com/Waller-Lab/SpectralDiffuserCam">GitHub</a></b></li>
+			<li>Open source code and sample data on <b><a href="https://github.com/Waller-Lab/SpectralDiffuserCam">GitHub</a></b></li>
 			<li>Open-access <b><a href="https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-10-1298">paper</a></b> published in Optica</li>
+			<li> Gallery of reconstructions: <b><a href="gallery.html">here </a></b></li>
 			<li>Original DiffuserCam (3D imaging) and Build-your-own <b><a href="https://waller-lab.github.io/DiffuserCam/">tutorial</a></b>
 			<!-- <li><b><a href="gallery.html">Gallery</a></b> of reconstructions</li>-->
 		</ul>
