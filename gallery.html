@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87339102-2"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-87339102-2');
+	</script>
+
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Spectral DiffuserCam</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link href="styles/minimal.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container-nav">
+		<div class="container-fluid">
+    		<ul class="nav navbar-nav">
+      			<li class="nav-item"><a href="index.html">Home</a></li>
+      		<li class="nav-item active"><a href="gallery.html">Gallery</a></li>
+				<li class="nav-item"><a href="https://github.com/Waller-Lab/SpectralDiffuserCam">Code</a></li>
+				<li class="nav-item"><a href="https://arxiv.org/abs/2006.08565">Paper</a></li>
+    		</ul>
+      	</div>
+    </div>
+</nav>
+
+
+<div class="container">
+
+	<div class="row">
+		<h1><b>Gallery of Reconstructions</b></h1>
+		Below are some example reconstructions from our Spectral DiffuserCam prototype.
+		All of the images were captured with no lenses and in a single exposure.
+		3D hyperspectral data-cubes with 64 spectral channels are recovered from a 2D encoded measurement.
+		<br />
+		<br />
+
+		<div class="row">
+
+		<img class="float-left" src="resources/colorfilter_movie1.gif" style="width:700px"><br / >
+		Color chart reconsturction, showing the full recovered 3D hyperspectral datacube (top) and false-color image (bottom right)
+		recovered from an encoded measurement (bottom left).
+		<img class="float-left" src="resources/colorchecker.jpg" style="width:700px">
+
+		<div />
+
+
+		<div class="row" style="margin-top:50px">
+		<img class="float-left" src="resources/thor_alone_good2.gif" style="width:700px"> <br / >
+		Thorlabs plush toy placed in front of the imager, showing the full recovered 3D hyperspectral datacube (top) and false-color image (bottom right)
+		recovered from an encoded measurement (bottom left).
+		<img class="float-left" src="resources/thordog.jpg" style="width:700px">
+
+		</div>
+
+
+		<div class="row" style="margin-top:50px">
+		<img class="float-left" src="resources/berkeley.jpg" style="width:700px"> <br / >
+		Colorful Berkeley letters displayed a computer monitor, showing the false-color image (right)
+		recovered from an encoded measurement (left).
+		</div>
+
+		<div class="row" style="margin-top:50px">
+		<img class="float-left" src="resources/dice.jpg" style="width:700px"> <br / >
+		Dice displayed on a computer monitor, showing the false-color image (right)
+		recovered from an encoded measurement (left).
+		</div>
+
+	</div>
+
+
+
+
+
+
+</body>
+</html>
