@@ -25,7 +25,7 @@ This includes the following files:
 Please place the downloaded data in SampleData folder the Python and/or Matlab folders.
 
 ## Setup
-Clone this project using: s
+Clone this project using: 
 ```
 git clone https://github.com/Waller-Lab/SpectralDiffuserCam.git
 ```
@@ -37,4 +37,4 @@ source activate spectral_diffusercam
 ```
 
 ## Description 
-This repository contains code in both Python and Matlab that is needed to process raw Spectral DiffuserCam images and reconstruct 3D hyperspectral volumes from the raw 2D measurements.  Four example raw images are provided, along with the calibrated point spread function and spectral filter function. Both the Python and Matlab versions support GPU acceleration. In Python, this is accomplished using cupy.  
+This repository contains code in both Python and Matlab that is needed to process raw Spectral DiffuserCam images and reconstruct 3D hyperspectral volumes from the raw 2D measurements.  Four example raw images are provided, along with the calibrated point spread function and spectral filter function. Both the Python and Matlab versions support GPU acceleration. In Python, this is accomplished using cupy. We use FISTA for our reconstructions with a 3D total variation prior. 
