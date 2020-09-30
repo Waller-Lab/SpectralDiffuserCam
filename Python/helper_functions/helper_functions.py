@@ -4,6 +4,9 @@ import matplotlib
 import scipy.io
 from IPython.core.display import display, HTML
 from ipywidgets import interact, widgets, fixed
+
+import sys
+sys.path.append('helper_functions/')
    
     
 def plotf2(r, img, ttl, sz):
@@ -46,7 +49,7 @@ def pre_plot(x):
     return x
     
     
-def stack_rgb_opt(reflArray, opt = 'false_color_calib.mat', scaling = [1,1,2.5]):
+def stack_rgb_opt(reflArray, opt = 'helper_functions/false_color_calib.mat', scaling = [1,1,2.5]):
     
     color_dict = scipy.io.loadmat(opt)
     red = color_dict['red']; green = color_dict['green']; blue = color_dict['blue']

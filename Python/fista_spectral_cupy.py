@@ -13,7 +13,7 @@ else:
     import tv_approx_haar_np as tv
     print('device = ', device, ', using CPU and numpy')
 
-import helper_functions as fc
+import helper_functions.helper_functions as fc
 import numpy as numpy
 import matplotlib.pyplot as plt
 
