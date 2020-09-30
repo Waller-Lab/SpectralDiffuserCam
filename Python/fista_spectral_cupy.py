@@ -1,7 +1,7 @@
 import sys
 global device
 device= sys.argv[1]
-
+sys.path.append('helper_functions/')
 
 if device == 'GPU':
     import cupy as np
