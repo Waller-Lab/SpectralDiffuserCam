@@ -33,7 +33,7 @@ im(row-2:row+2, col-2:col+2, :)= 0;
 
 
 %% Put everything on GPU (if using GPU) 
-opts.use_gpu = 1;
+opts.use_gpu = 1; % Change to 0 to put on CPU
 if opts.use_gpu 
     psf = gpuArray(single(psf(:,1:end)));
     if mod(size(mask,3),2) == 0
@@ -43,6 +43,14 @@ if opts.use_gpu
         wavelengths = wavelengths(1:end-1);
     end
     im = gpuArray(single(im));
+else
+    if mod(size(mask,3),2) == 0
+        mask = single(mask(:,1:end, 1:end));
+    else
+        mask = single(mask(:,1:end, 1:end-1));
+        wavelengths = wavelengths(1:end-1);
+    end
+end
 end
 
 
