@@ -39,7 +39,7 @@ Please place the downloaded data in SampleData folder in the Python and/or Matla
 
 [Reconstruction Demo.ipynb](https://github.com/Waller-Lab/SpectralDiffuserCam/blob/master/Python/Reconstruction%20Demo.ipynb) contains an example reconstruction in Python. 
 
-reconstruction_demo.m](https://github.com/Waller-Lab/SpectralDiffuserCam/blob/master/Matlab/reconstruction_demo.m) contains an example reconstruction in Matlab.
+[reconstruction_demo.m](https://github.com/Waller-Lab/SpectralDiffuserCam/blob/master/Matlab/reconstruction_demo.m) contains an example reconstruction in Matlab.
 
 We recommend running this code on a GPU, but it can also be run on a CPU (much slower!). 
 
