@@ -1,3 +1,5 @@
+<p align="center"><img width=25% src="https://github.com/Waller-Lab/SpectralDiffuserCam/blob/gh-pages/resources/berkeley4.gif"></p>
+
 # Spectral DiffuserCam - lensless snapshot hyperspectral imaging
 
 ### [Project Page](https://waller-lab.github.io/SpectralDiffuserCam/) | [Paper](https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-10-1298)
