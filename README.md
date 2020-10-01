@@ -3,11 +3,30 @@
 ### [Project Page](https://waller-lab.github.io/SpectralDiffuserCam/) | [Paper](https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-10-1298)
 
 
-Please cite the following paper when using this code or data:
 
+## Paper 
 [Spectral DiffuserCam: lensless snapshot hyperspectral imaging with a spectral filter array](https://www.osapublishing.org/optica/abstract.cfm?uri=optica-7-10-1298)
 
-Kristina Monakhova, Kyrollos Yanny, Neerja Aggarwal, and Laura Waller
+Please cite the following paper when using this code or data:
+
+
+```
+@article{Monakhova:20,
+author = {Kristina Monakhova and Kyrollos Yanny and Neerja Aggarwal and Laura Waller},
+journal = {Optica},
+number = {10},
+pages = {1298--1307},
+publisher = {OSA},
+title = {Spectral DiffuserCam: lensless snapshot hyperspectral imaging with a spectral filter array},
+volume = {7},
+month = {Oct},
+year = {2020},
+url = {http://www.osapublishing.org/optica/abstract.cfm?URI=optica-7-10-1298},
+doi = {10.1364/OPTICA.397214}
+}
+
+```
+
 
 ## Contents
 
