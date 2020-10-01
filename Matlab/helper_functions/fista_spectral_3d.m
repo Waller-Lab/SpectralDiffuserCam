@@ -46,7 +46,6 @@ lambda = opts.tv_lambda;
 % TV denoising options: 
 l = 0;  u = Inf;
 clear parsin
-parsin.MAXITER=opts.tv_iters;
 parsin.epsilon=1e-5;
 parsin.print=0;
 parsin.tv='iso';

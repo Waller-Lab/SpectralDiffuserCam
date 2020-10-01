@@ -51,7 +51,6 @@ else
         wavelengths = wavelengths(1:end-1);
     end
 end
-end
 
 
 %% Define reconstruction options (leave these alone for defaults) 

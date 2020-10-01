@@ -22,7 +22,6 @@ This includes the following files:
  * calibration.mat - includes the calibratated point spread function, filter function, and wavelength list
  * four sample raw measurements
 
-Please place the downloaded data in SampleData folder the Python and/or Matlab folders.
 
 ## Setup
 Clone this project using: 
@@ -33,8 +32,16 @@ git clone https://github.com/Waller-Lab/SpectralDiffuserCam.git
 The dependencies can be installed by using:
 ```
 conda env create -f environment.yml
-source activate spectral_diffusercam
+source activate SpectralDiffuserCam
 ```
+
+Please place the downloaded data in SampleData folder in the Python and/or Matlab folders.
+
+[Reconstruction Demo.ipynb](https://github.com/Waller-Lab/SpectralDiffuserCam/blob/master/Python/Reconstruction%20Demo.ipynb) contains an example reconstruction in Python. 
+
+reconstruction_demo.m](https://github.com/Waller-Lab/SpectralDiffuserCam/blob/master/Matlab/reconstruction_demo.m) contains an example reconstruction in Matlab.
+
+We recommend running this code on a GPU, but it can also be run on a CPU (much slower!). 
 
 ## Description 
 This repository contains code in both Python and Matlab that is needed to process raw Spectral DiffuserCam images and reconstruct 3D hyperspectral volumes from the raw 2D measurements.  Four example raw images are provided, along with the calibrated point spread function and spectral filter function. Both the Python and Matlab versions support GPU acceleration. In Python, this is accomplished using cupy. We use FISTA for our reconstructions with a 3D total variation prior. 
